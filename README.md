@@ -12,9 +12,13 @@
 7. `sudo chmod 664 data/certbot/conf/live/<domain_name>/privkey.pem`
 
 ## Result
+
 cert: `data/certbot/conf/live/<domain_name>/fullchain.pem`
+
 key: `data/certbot/conf/live/<domain_name>/privkey.pem`
 
 ## Usage Remarks
+
 Mount the whole directory (`nginx-certbot/data/certbot/`)
+
 like: `nginx-certbot/data/certbot/:/etc/certbot` (in docker-compose)
